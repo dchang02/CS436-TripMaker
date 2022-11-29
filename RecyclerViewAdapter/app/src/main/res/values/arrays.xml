@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colors">
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/indigo</item>
+        <item>@color/violet</item>
+        <item>@color/aqua</item>
+        <item>@color/black</item>
+        <item>@color/fuchsia</item>
+        <item>@color/gray</item>
+        <item>@color/lime</item>
+        <item>@color/maroon</item>
+        <item>@color/navy</item>
+        <item>@color/olive</item>
+        <item>@color/purple</item>
+        <item>@color/silver</item>
+        <item>@color/teal</item>
+        <item>@color/white</item>
+    </array>
+
+    <array name="names">
+        <item>Red</item>
+        <item>orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Violet</item>
+        <item>Aqua</item>
+        <item>Black</item>
+        <item>Fuchsia</item>
+        <item>Gray</item>
+        <item>Lime</item>
+        <item>Maroon</item>
+        <item>Navy</item>
+        <item>Olive</item>
+        <item>Purple</item>
+        <item>Silver</item>
+        <item>Teal</item>
+        <item>white</item>
+    </array>
+</resources>

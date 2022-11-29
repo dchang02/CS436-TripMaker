@@ -1,0 +1,45 @@
+<resources>
+    <color name="md_theme_light_primary">#2196F3</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#1976D2</color>
+    <color name="md_theme_light_onPrimaryContainer">#001D36</color>
+    <color name="md_theme_light_secondary">#005FB1</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#D3E3FF</color>
+    <color name="md_theme_light_tertiary">#EF5350</color>
+    <color name="md_theme_dark_primary">#9BCAFF</color>
+    <color name="md_theme_dark_onPrimary">#226AA2</color>
+    <color name="md_theme_dark_primaryContainer">#00497E</color>
+    <color name="md_theme_dark_secondary">#A4C8FF</color>
+    <color name="md_theme_dark_onSecondary">#003060</color>
+    <color name="md_theme_dark_secondaryContainer">#004788</color>
+    <color name="md_theme_dark_tertiary">#CF7C77</color>
+
+    <color name="ripple_light">#40FFFFFF</color>
+    <color name="ripple_dark">#40000000</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Old colors -->
+    <color name="red">#CC0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="gold">#FFD700</color>
+
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_light">#FFCCBC</color>
+    <color name="primary_disabled">#FFF8AD96</color>
+    <color name="accent">#536DFE</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="edit_text">#202020</color>
+    <color name="black_text_87">#DE000000</color>
+    <color name="black_text_54">#8A000000</color>
+    <color name="background_color">#08237e</color>
+</resources>

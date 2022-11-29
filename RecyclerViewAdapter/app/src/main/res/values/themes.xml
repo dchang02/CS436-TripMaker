@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorPrimaryVariant">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/md_theme_light_tertiary</item>
+        <item name="colorSecondaryVariant">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorAccent">@color/md_theme_light_tertiary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:selectableItemBackground" tools:targetApi="l">@drawable/background_selector</item>
+        <item name="rippleColor">@color/ripple_light</item>
+    </style>
+
+    <style name="Theme.App.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.App.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.App.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
