@@ -3,9 +3,10 @@
 
     <string name="app_name">UIRecyclerView</string>
     <string name="confirm_delete">Confirm Delete</string>
-    <string name="delete_confirmation_message">Are you sure you want to delete this item?</string>
+    <string name="confirm_add">Confirm Add</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="go_to_next_activity_string">Button to add locations</string>
 
 
 </resources>
