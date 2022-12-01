@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.generateinitialitinerary.app-mergeDebugResources-49:/layout/fragment_search_screen.xml",
+        "source": "com.example.generateinitialitinerary.app-main-52:/layout/fragment_search_screen.xml"
+    },
+    {
+        "merged": "com.example.generateinitialitinerary.app-mergeDebugResources-49:/layout/fragment_draft_itinerary.xml",
+        "source": "com.example.generateinitialitinerary.app-main-52:/layout/fragment_draft_itinerary.xml"
+    },
+    {
+        "merged": "com.example.generateinitialitinerary.app-mergeDebugResources-49:/layout/activity_maps.xml",
+        "source": "com.example.generateinitialitinerary.app-main-52:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.example.generateinitialitinerary.app-mergeDebugResources-49:/layout/new_item.xml",
+        "source": "com.example.generateinitialitinerary.app-main-52:/layout/new_item.xml"
+    },
+    {
+        "merged": "com.example.generateinitialitinerary.app-mergeDebugResources-49:/layout/new_destination.xml",
+        "source": "com.example.generateinitialitinerary.app-main-52:/layout/new_destination.xml"
+    }
+]

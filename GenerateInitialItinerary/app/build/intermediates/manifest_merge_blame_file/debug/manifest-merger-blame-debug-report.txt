@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.generateinitialitinerary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <application
+26-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:6:5-46:19
+27        android:allowBackup="true"
+27-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:7:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] C:\Users\liame\.gradle\caches\transforms-3\f90edd403b6d451e407b94e5823d340f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:8:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:9:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:10:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:11:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:12:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:13:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.GenerateInitialItinerary" >
+38-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:14:9-62
+39
+40        <!--
+41             TODO: Before you run your application, you need a Google Maps API key.
+42
+43             To get one, follow the directions here:
+44
+45                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+46
+47             Once you have your API key (it starts with "AIza"), define a new property in your
+48             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+49             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+50        -->
+51        <meta-data
+52            android:name="com.google.android.geo.API_KEY"
+52-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:29:13-58
+53            android:value="AIzaSyDRO61N5SowT1M8qgnhphbTkIj346lYBQg" />
+53-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:30:13-44
+54        <meta-data
+54-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:32:9-34:69
+55            android:name="com.google.android.gms.version"
+55-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:33:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:34:13-66
+57
+58        <activity
+58-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:36:9-45:20
+59            android:name="com.example.generateinitialitinerary.MapsActivity"
+59-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:37:13-41
+60            android:exported="true"
+60-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:38:13-36
+61            android:label="@string/title_activity_maps" >
+61-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:39:13-56
+62            <intent-filter>
+62-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:40:13-44:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:41:17-69
+63-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:41:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:43:17-77
+65-->C:\Users\liame\AndroidStudioProjects\GenerateInitialItinerary\app\src\main\AndroidManifest.xml:43:27-74
+66            </intent-filter>
+67        </activity>
+68        <!-- Needs to be explicitly declared on P+ -->
+69        <uses-library
+69-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+70            android:name="org.apache.http.legacy"
+70-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+71            android:required="false" />
+71-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\liame\.gradle\caches\transforms-3\5f1d756082c178db7cd0a4d5003830c4\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\liame\.gradle\caches\transforms-3\79d016b352401520f1445bfe948e7121\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\liame\.gradle\caches\transforms-3\79d016b352401520f1445bfe948e7121\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\liame\.gradle\caches\transforms-3\79d016b352401520f1445bfe948e7121\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\liame\.gradle\caches\transforms-3\79d016b352401520f1445bfe948e7121\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+77
+78        <uses-library
+78-->[androidx.window:window:1.0.0] C:\Users\liame\.gradle\caches\transforms-3\4a18e63989cda1f8172a56e4b7020ec8\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.0.0] C:\Users\liame\.gradle\caches\transforms-3\4a18e63989cda1f8172a56e4b7020ec8\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0] C:\Users\liame\.gradle\caches\transforms-3\4a18e63989cda1f8172a56e4b7020ec8\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+81        <uses-library
+81-->[androidx.window:window:1.0.0] C:\Users\liame\.gradle\caches\transforms-3\4a18e63989cda1f8172a56e4b7020ec8\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.0.0] C:\Users\liame\.gradle\caches\transforms-3\4a18e63989cda1f8172a56e4b7020ec8\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0] C:\Users\liame\.gradle\caches\transforms-3\4a18e63989cda1f8172a56e4b7020ec8\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+84
+85        <provider
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\liame\.gradle\caches\transforms-3\d2c9240a774af93039bb61d4f8204150\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+86            android:name="androidx.startup.InitializationProvider"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\liame\.gradle\caches\transforms-3\d2c9240a774af93039bb61d4f8204150\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+87            android:authorities="com.example.generateinitialitinerary.androidx-startup"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\liame\.gradle\caches\transforms-3\d2c9240a774af93039bb61d4f8204150\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+88            android:exported="false" >
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\liame\.gradle\caches\transforms-3\d2c9240a774af93039bb61d4f8204150\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+89            <meta-data
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\liame\.gradle\caches\transforms-3\d2c9240a774af93039bb61d4f8204150\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\liame\.gradle\caches\transforms-3\d2c9240a774af93039bb61d4f8204150\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+91                android:value="androidx.startup" />
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\liame\.gradle\caches\transforms-3\d2c9240a774af93039bb61d4f8204150\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\liame\.gradle\caches\transforms-3\81bd6fb8af6b207e9371b12bce06922b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\liame\.gradle\caches\transforms-3\81bd6fb8af6b207e9371b12bce06922b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+94                android:value="androidx.startup" />
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\liame\.gradle\caches\transforms-3\81bd6fb8af6b207e9371b12bce06922b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+95        </provider>
+96    </application>
+97
+98</manifest>
