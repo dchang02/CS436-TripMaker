@@ -16,8 +16,7 @@ import course.examples.ui.recyclerview.databinding.ListItemLayoutBinding
  * A [RecyclerView.Adapter] that displays a list of colors.
  */
 class RecyclerViewAdapter(
-    //private val colors: TypedArray,
-    private val locations: Array<String>,
+    private val viewModel: RecyclerViewModel
 ) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
     /**
@@ -45,14 +44,19 @@ class RecyclerViewAdapter(
      */
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         //input the location information
-        holder.name.text = locations[position]
-        //holder.name.setBackgroundColor(colors.getColor(position, 0))
+        holder.name.text = viewModel.names.value!![position]
     }
 
     /**
      * Called by [RecyclerView] when iterating through the list items.
      */
-    override fun getItemCount(): Int = locations.size
+    override fun getItemCount(): Int = viewModel.names.value!!.size
+
+    //Removes the location at the specified position
+    fun removeItem(position: Int) {
+        viewModel.removeItem(position)
+        notifyDataSetChanged()
+    }
 
     /**
      * A custom [RecyclerView.ViewHolder] used to display each list item
@@ -64,16 +68,14 @@ class RecyclerViewAdapter(
 
         init {
             itemView.setOnLongClickListener {
-                // Display a Toast message indicting the selected item
 
-                //create pop up to delete the selected item
+                //Creates a pop up asking to delete the specified item
                 var builder = AlertDialog.Builder(binding.root.context)
                 builder.setTitle(R.string.confirm_delete)
-                builder.setMessage(R.string.delete_confirmation_message)
+                builder.setMessage("Are you sure you want to delete this item?: ${name.text}")
                 builder.setPositiveButton(R.string.yes, DialogInterface.OnClickListener { dialog, id ->
-                    //Set the TextView to be the new location
-                    binding.textView.text = "Replaced"
-
+                    //Remove location from the list
+                    removeItem(this.absoluteAdapterPosition)
                     dialog.cancel()
                 })
                 builder.setNegativeButton(R.string.no, DialogInterface.OnClickListener { dialog, id ->
@@ -83,11 +85,6 @@ class RecyclerViewAdapter(
                 var alert = builder.create()
                 alert.show()
 
-                /*Toast.makeText(
-                    binding.root.context,
-                    name.text,
-                    Toast.LENGTH_SHORT
-                ).show()*/
                 return@setOnLongClickListener true
             }
         }
