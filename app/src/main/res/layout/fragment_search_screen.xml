@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchScreen">
+
+    <TextView
+        android:id="@+id/subtitle2"
+        android:layout_width="134dp"
+        android:layout_height="22dp"
+        android:text="Select Interests"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterDestination" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="416dp"
+        android:layout_height="84dp"
+        android:background="#29B6F6"
+        android:paddingLeft="100dp"
+        android:text="New Trip"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/subtitle1"
+        android:layout_width="134dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="4dp"
+        android:text="Enter a Destination"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/enterDestination"
+        android:layout_width="377dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="College Park"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="252dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="44dp"
+        android:text="GENERATE ITINEARY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postsRecyclerView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/postsRecyclerView"
+        android:layout_width="380dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="24dp"
+        android:clipToPadding="false"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

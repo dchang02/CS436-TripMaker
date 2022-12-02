@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837800597331",
+    "project_id": "tripmakercombined",
+    "storage_bucket": "tripmakercombined.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837800597331:android:04ca60ff6c1c33e97873a6",
+        "android_client_info": {
+          "package_name": "com.example.generateinitialitinerary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837800597331-3mnnj1ki0phl5mdudcnnijkegjdgc5hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0L45W_HSBLosyF1tnfhUnSmpHmtbSSgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837800597331-3mnnj1ki0phl5mdudcnnijkegjdgc5hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
